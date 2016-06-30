@@ -1,3 +1,10 @@
+#include <SparkFunESP8266WiFi.h>
+
+const char mySSID[] = "n3tw3rk";
+const char myPSK[] = "myn3tw3rkb3tw3rkin";
+
+define STRING_BUFFER_SIZE 1024;
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);

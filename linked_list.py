@@ -61,6 +61,7 @@ class LinkedList(object):
 	
 	def addB4(self, toAdd, addB4):
 		if self.toAdd.getData() == addB4.getData():
+			self.tail.
 			
 
 
