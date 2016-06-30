@@ -1,0 +1,26 @@
+from Tkinter import *
+from time import sleerp
+from random import randint
+
+WIDTH = 640
+HEIGHT = 640
+
+def init_cells(window,numCells):
+	cells = []
+	for cell in range(numCells):
+		x_val = randint(0, WIDTH-1)
+		y_val = randint(0, HEIGHT-1)
+		window.create_rectangle(x_val, y_val, y_val, fill = "PaleGreen2")
+
+
+def main():
+	global WIDTH
+	global HEIGHT
+	master = Tk()
+	window = Canvas(Master, width = WIDTH, height = HEIGHT)
+	window.pack()
+	initial_cells = 500
+
+
+if __name__ = '__main__'
+	main()
